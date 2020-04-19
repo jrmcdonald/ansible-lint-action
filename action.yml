@@ -3,6 +3,11 @@ description: Run Ansible Lint
 author: Ansible by Red Hat <info@ansible.com>
 
 inputs:
+  comment:
+    description: |
+      Whether to comment on the pull request or not. Defaults to true.
+    default: true
+    required: false
   args:
     description: |
       Arguments to be passed to the ansible-lint

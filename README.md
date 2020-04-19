@@ -63,6 +63,9 @@ jobs:
         #                         repeatable.
         #   -c C                  Specify configuration file to use. Defaults to ".ansible-lint"
         args: ""
+        # [optional]
+        # Whether to comment on the pull request or not. Defaults to true.
+        comment: true
 
 ```
 
